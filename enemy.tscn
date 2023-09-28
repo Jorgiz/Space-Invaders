@@ -1,0 +1,24 @@
+[gd_scene load_steps=4 format=3 uid="uid://cxmknjvcflxjp"]
+
+[ext_resource type="Script" path="res://enemy.gd" id="1_00c70"]
+[ext_resource type="Texture2D" uid="uid://cpqkclaoveowp" path="res://alien.png" id="1_y4nnp"]
+
+[sub_resource type="CircleShape2D" id="CircleShape2D_e7exy"]
+radius = 5.0
+
+[node name="Enemy" type="Area2D"]
+collision_layer = 2
+collision_mask = 9
+script = ExtResource("1_00c70")
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+texture = ExtResource("1_y4nnp")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+shape = SubResource("CircleShape2D_e7exy")
+
+[node name="Timer" type="Timer" parent="."]
+wait_time = 0.25
+autostart = true
+
+[connection signal="timeout" from="Timer" to="." method="_on_timer_timeout"]

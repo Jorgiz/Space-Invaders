@@ -1,0 +1,25 @@
+[gd_scene load_steps=4 format=3 uid="uid://bo84x73nbcjrv"]
+
+[ext_resource type="Script" path="res://bullet.gd" id="1_nn5cp"]
+
+[sub_resource type="QuadMesh" id="QuadMesh_cp1sm"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_4swv7"]
+size = Vector2(2, 4)
+
+[node name="Bullet" type="Area2D"]
+collision_layer = 4
+collision_mask = 2
+script = ExtResource("1_nn5cp")
+
+[node name="MeshInstance2D" type="MeshInstance2D" parent="."]
+scale = Vector2(2, 4)
+mesh = SubResource("QuadMesh_cp1sm")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+shape = SubResource("RectangleShape2D_4swv7")
+
+[node name="VisibleOnScreenEnabler2D" type="VisibleOnScreenEnabler2D" parent="."]
+
+[connection signal="area_entered" from="." to="." method="_on_area_entered"]
+[connection signal="screen_exited" from="VisibleOnScreenEnabler2D" to="." method="_on_visible_on_screen_enabler_2d_screen_exited"]

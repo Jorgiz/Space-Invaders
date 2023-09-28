@@ -1,0 +1,191 @@
+[gd_scene load_steps=3 format=3 uid="uid://hos2o45kgbpg"]
+
+[ext_resource type="PackedScene" uid="uid://cxmknjvcflxjp" path="res://enemy.tscn" id="1_eevla"]
+[ext_resource type="PackedScene" uid="uid://c82ugp2twtpnf" path="res://ship.tscn" id="2_10cen"]
+
+[node name="Game" type="Node2D"]
+
+[node name="Enemies" type="Node2D" parent="."]
+
+[node name="Enemy" parent="Enemies" instance=ExtResource("1_eevla")]
+position = Vector2(8, 16)
+
+[node name="Enemy2" parent="Enemies" instance=ExtResource("1_eevla")]
+position = Vector2(24, 16)
+
+[node name="Enemy3" parent="Enemies" instance=ExtResource("1_eevla")]
+position = Vector2(40, 16)
+
+[node name="Enemy4" parent="Enemies" instance=ExtResource("1_eevla")]
+position = Vector2(56, 16)
+
+[node name="Enemy5" parent="Enemies" instance=ExtResource("1_eevla")]
+position = Vector2(72, 16)
+
+[node name="Enemy6" parent="Enemies" instance=ExtResource("1_eevla")]
+position = Vector2(88, 16)
+
+[node name="Enemy7" parent="Enemies" instance=ExtResource("1_eevla")]
+position = Vector2(104, 16)
+
+[node name="Enemy8" parent="Enemies" instance=ExtResource("1_eevla")]
+position = Vector2(120, 16)
+
+[node name="Enemy9" parent="Enemies" instance=ExtResource("1_eevla")]
+position = Vector2(136, 16)
+
+[node name="Enemy10" parent="Enemies" instance=ExtResource("1_eevla")]
+position = Vector2(152, 16)
+
+[node name="Enemy11" parent="Enemies" instance=ExtResource("1_eevla")]
+position = Vector2(168, 16)
+
+[node name="Enemy12" parent="Enemies" instance=ExtResource("1_eevla")]
+position = Vector2(184, 16)
+
+[node name="Enemy13" parent="Enemies" instance=ExtResource("1_eevla")]
+position = Vector2(200, 16)
+
+[node name="Enemy14" parent="Enemies" instance=ExtResource("1_eevla")]
+position = Vector2(216, 16)
+
+[node name="Enemy15" parent="Enemies" instance=ExtResource("1_eevla")]
+position = Vector2(232, 16)
+
+[node name="Enemy16" parent="Enemies" instance=ExtResource("1_eevla")]
+position = Vector2(8, 32)
+
+[node name="Enemy17" parent="Enemies" instance=ExtResource("1_eevla")]
+position = Vector2(24, 32)
+
+[node name="Enemy18" parent="Enemies" instance=ExtResource("1_eevla")]
+position = Vector2(40, 32)
+
+[node name="Enemy19" parent="Enemies" instance=ExtResource("1_eevla")]
+position = Vector2(56, 32)
+
+[node name="Enemy20" parent="Enemies" instance=ExtResource("1_eevla")]
+position = Vector2(72, 32)
+
+[node name="Enemy21" parent="Enemies" instance=ExtResource("1_eevla")]
+position = Vector2(88, 32)
+
+[node name="Enemy22" parent="Enemies" instance=ExtResource("1_eevla")]
+position = Vector2(104, 32)
+
+[node name="Enemy23" parent="Enemies" instance=ExtResource("1_eevla")]
+position = Vector2(120, 32)
+
+[node name="Enemy24" parent="Enemies" instance=ExtResource("1_eevla")]
+position = Vector2(136, 32)
+
+[node name="Enemy25" parent="Enemies" instance=ExtResource("1_eevla")]
+position = Vector2(152, 32)
+
+[node name="Enemy26" parent="Enemies" instance=ExtResource("1_eevla")]
+position = Vector2(168, 32)
+
+[node name="Enemy27" parent="Enemies" instance=ExtResource("1_eevla")]
+position = Vector2(184, 32)
+
+[node name="Enemy28" parent="Enemies" instance=ExtResource("1_eevla")]
+position = Vector2(200, 32)
+
+[node name="Enemy29" parent="Enemies" instance=ExtResource("1_eevla")]
+position = Vector2(216, 32)
+
+[node name="Enemy30" parent="Enemies" instance=ExtResource("1_eevla")]
+position = Vector2(232, 32)
+
+[node name="Enemy31" parent="Enemies" instance=ExtResource("1_eevla")]
+position = Vector2(8, 48)
+
+[node name="Enemy32" parent="Enemies" instance=ExtResource("1_eevla")]
+position = Vector2(24, 48)
+
+[node name="Enemy33" parent="Enemies" instance=ExtResource("1_eevla")]
+position = Vector2(40, 48)
+
+[node name="Enemy34" parent="Enemies" instance=ExtResource("1_eevla")]
+position = Vector2(56, 48)
+
+[node name="Enemy35" parent="Enemies" instance=ExtResource("1_eevla")]
+position = Vector2(72, 48)
+
+[node name="Enemy36" parent="Enemies" instance=ExtResource("1_eevla")]
+position = Vector2(88, 48)
+
+[node name="Enemy37" parent="Enemies" instance=ExtResource("1_eevla")]
+position = Vector2(104, 48)
+
+[node name="Enemy38" parent="Enemies" instance=ExtResource("1_eevla")]
+position = Vector2(120, 48)
+
+[node name="Enemy39" parent="Enemies" instance=ExtResource("1_eevla")]
+position = Vector2(136, 48)
+
+[node name="Enemy40" parent="Enemies" instance=ExtResource("1_eevla")]
+position = Vector2(152, 48)
+
+[node name="Enemy41" parent="Enemies" instance=ExtResource("1_eevla")]
+position = Vector2(168, 48)
+
+[node name="Enemy42" parent="Enemies" instance=ExtResource("1_eevla")]
+position = Vector2(184, 48)
+
+[node name="Enemy43" parent="Enemies" instance=ExtResource("1_eevla")]
+position = Vector2(200, 48)
+
+[node name="Enemy44" parent="Enemies" instance=ExtResource("1_eevla")]
+position = Vector2(216, 48)
+
+[node name="Enemy45" parent="Enemies" instance=ExtResource("1_eevla")]
+position = Vector2(232, 48)
+
+[node name="Enemy46" parent="Enemies" instance=ExtResource("1_eevla")]
+position = Vector2(8, 64)
+
+[node name="Enemy47" parent="Enemies" instance=ExtResource("1_eevla")]
+position = Vector2(24, 64)
+
+[node name="Enemy48" parent="Enemies" instance=ExtResource("1_eevla")]
+position = Vector2(40, 64)
+
+[node name="Enemy49" parent="Enemies" instance=ExtResource("1_eevla")]
+position = Vector2(56, 64)
+
+[node name="Enemy50" parent="Enemies" instance=ExtResource("1_eevla")]
+position = Vector2(72, 64)
+
+[node name="Enemy51" parent="Enemies" instance=ExtResource("1_eevla")]
+position = Vector2(88, 64)
+
+[node name="Enemy52" parent="Enemies" instance=ExtResource("1_eevla")]
+position = Vector2(104, 64)
+
+[node name="Enemy53" parent="Enemies" instance=ExtResource("1_eevla")]
+position = Vector2(120, 64)
+
+[node name="Enemy54" parent="Enemies" instance=ExtResource("1_eevla")]
+position = Vector2(136, 64)
+
+[node name="Enemy55" parent="Enemies" instance=ExtResource("1_eevla")]
+position = Vector2(152, 64)
+
+[node name="Enemy56" parent="Enemies" instance=ExtResource("1_eevla")]
+position = Vector2(168, 64)
+
+[node name="Enemy57" parent="Enemies" instance=ExtResource("1_eevla")]
+position = Vector2(184, 64)
+
+[node name="Enemy58" parent="Enemies" instance=ExtResource("1_eevla")]
+position = Vector2(200, 64)
+
+[node name="Enemy59" parent="Enemies" instance=ExtResource("1_eevla")]
+position = Vector2(216, 64)
+
+[node name="Enemy60" parent="Enemies" instance=ExtResource("1_eevla")]
+position = Vector2(232, 64)
+
+[node name="Ship" parent="." instance=ExtResource("2_10cen")]
+position = Vector2(128, 224)
